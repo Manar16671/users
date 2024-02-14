@@ -14,7 +14,7 @@ RUN docker-php-ext-install pcntl gd
 COPY . .
 
 # Expose port 9000 to the outside world
-EXPOSE 9000
+EXPOSE 8000
 
 # Run PHP-FPM
 CMD ["php-fpm"]
